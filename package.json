@@ -1,0 +1,19 @@
+{
+  "name": "nivesh-suraksha-workspace",
+  "version": "1.0.0",
+  "description": "Nivesh Suraksha - Multilingual Investor Scam Checker & Grievance Guide",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "test": "cd server && npm test",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "sebi",
+    "nsdl",
+    "sangyan-hackathon",
+    "investor-protection"
+  ],
+  "author": "SANGYAN Hackathon Team",
+  "license": "MIT"
+}

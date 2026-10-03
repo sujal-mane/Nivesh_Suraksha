@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', 'Noto Sans Devanagari', system-ui, sans-serif;
+  }
+}
+
+/* High Contrast Mode for low vision / elderly accessibility */
+.high-contrast {
+  --bg-primary: #000000;
+  --bg-card: #0a0a0a;
+  --border-strong: #ffffff;
+  --text-main: #ffffff;
+  --text-muted: #e2e8f0;
+  --highlight-yellow: #fde047;
+  --highlight-red: #ef4444;
+  --highlight-green: #22c55e;
+}
+
+.high-contrast body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .card-contrast {
+  background-color: #0d1117 !important;
+  border-color: #ffffff !important;
+  border-width: 2px !important;
+}
+
+.high-contrast .text-contrast {
+  color: #ffffff !important;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "nivesh-suraksha-server",
+  "version": "1.0.0",
+  "description": "Backend API for Nivesh Suraksha - Multilingual Investor Scam Checker & Grievance Navigator",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test/test-engine.js"
+  },
+  "keywords": [
+    "investor-protection",
+    "sebi",
+    "nsdl",
+    "scam-checker",
+    "grievance-guide"
+  ],
+  "author": "SANGYAN Hackathon Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

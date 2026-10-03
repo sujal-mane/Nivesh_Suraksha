@@ -1,0 +1,271 @@
+{
+  "forums": [
+    {
+      "id": "broker_grievance",
+      "name": "Stock Broker / Trading Member Grievance Cell",
+      "shortName": "Broker Grievance Cell",
+      "category": "broker_depository",
+      "officialWebsite": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=13",
+      "source": "SEBI Intermediary Regulations & Guidelines",
+      "timelineDays": 30,
+      "description": {
+        "en": "Every SEBI-registered stock broker has a designated Grievance Officer and dedicated email address for resolving investor disputes.",
+        "hi": "प्रत्येक सेबी-पंजीकृत स्टॉक ब्रोकर के पास निवेशक विवादों को सुलझाने के लिए एक नामित शिकायत अधिकारी और ईमेल आईडी होती है।",
+        "mr": "प्रत्येक सेबी-नोंदणीकृत स्टॉक ब्रोकरकडे गुंतवणूकदारांचे वाद सोडवण्यासाठी एक नियुक्त तक्रार निवारण अधिकारी असतो."
+      },
+      "applicableIssues": [
+        "broker did not credit shares",
+        "shares not showing in demat",
+        "unauthorized trade executed",
+        "excess brokerage or hidden charges",
+        "delay in fund payout / withdrawal",
+        "demat account blocked without notice",
+        "ledger balance mismatch"
+      ],
+      "requiredDocuments": [
+        "Contract notes for disputed trade(s)",
+        "Demat account holding statement / Client Master Report (CMR)",
+        "Bank account statement showing funds transfer",
+        "Screenshots of trading platform error or dispute",
+        "Email / ticket correspondence with broker customer care"
+      ],
+      "escalationSteps": [
+        {
+          "step": 1,
+          "title": "Email Designated Grievance Officer",
+          "timeline": "Day 1 to Day 30",
+          "action": "Write directly to grievance@[brokername].com with transaction IDs and contract notes."
+        },
+        {
+          "step": 2,
+          "title": "Escalate to Stock Exchange (NSE / BSE)",
+          "timeline": "After 30 days if unresolved",
+          "action": "Lodge a complaint on NSE Investor Grievance Portal (https://www.nseindia.com) or BSE e-Complaint."
+        },
+        {
+          "step": 3,
+          "title": "Escalate to SEBI SCORES 2.0 & SMART ODR",
+          "timeline": "If unresolved by Exchange",
+          "action": "Lodge complaint on SEBI SCORES portal (https://scores.sebi.gov.in) or initiate conciliation on SMART ODR (https://smartodr.in)."
+        }
+      ]
+    },
+    {
+      "id": "depository_nsdl_cdsl",
+      "name": "Depository Investor Grievance Cell (NSDL / CDSL)",
+      "shortName": "NSDL / CDSL Grievance",
+      "category": "demat_depository",
+      "officialWebsite": "https://nsdl.co.in/grievance.php",
+      "source": "National Securities Depository Limited (NSDL) / CDSL",
+      "timelineDays": 30,
+      "description": {
+        "en": "Handles disputes relating to demat holding accounts, transmission of shares, pledged shares, and depository participant (DP) service failures.",
+        "hi": "डीमैट खाता होल्डिंग, शेयरों का हस्तांतरण, गिरवी रखे शेयर और डीपी सेवा संबंधी विवादों के निवारण हेतु।",
+        "mr": "डीमॅट खात्यातील शेअर्स, शेअर्सचे ट्रान्समिशन, तारण शेअर्स आणि डिपॉझिटरी पार्टिसिपंट सेवा त्रुटींच्या निवारणासाठी."
+      },
+      "applicableIssues": [
+        "demat transfer delay",
+        "shares missing from depository statement",
+        "transmission of shares of deceased holder",
+        "unauthorized pledge or unpledge of shares",
+        "wrong ISIN credit or corporate action delay",
+        "dp refusing to close demat account"
+      ],
+      "requiredDocuments": [
+        "Client Master Report (CMR) stamped by DP",
+        "Transaction Statement showing depository transfers",
+        "Delivery Instruction Slip (DIS) copy or e-DIS confirmation",
+        "Death certificate / Succession Certificate (for transmission cases)",
+        "Written communication with Depository Participant"
+      ],
+      "escalationSteps": [
+        {
+          "step": 1,
+          "title": "Submit to NSDL / CDSL Investor Relations",
+          "timeline": "Day 1 to Day 15",
+          "action": "Email relations@nsdl.co.in or lodge online on NSDL Grievance Portal."
+        },
+        {
+          "step": 2,
+          "title": "Escalate to Depository Member Dispute Committee",
+          "timeline": "Day 16 to Day 30",
+          "action": "Request arbitration/conciliation through depository committee."
+        },
+        {
+          "step": 3,
+          "title": "File on SEBI SCORES 2.0",
+          "timeline": "After 30 days if unresolved",
+          "action": "Lodge formal complaint on https://scores.sebi.gov.in mentioning the DP and Depository."
+        }
+      ]
+    },
+    {
+      "id": "sebi_scores",
+      "name": "SEBI Complaints Redress System (SCORES 2.0)",
+      "shortName": "SEBI SCORES 2.0",
+      "category": "regulatory_escalation",
+      "officialWebsite": "https://scores.sebi.gov.in",
+      "source": "Securities and Exchange Board of India (SEBI)",
+      "timelineDays": 21,
+      "description": {
+        "en": "Centralized online platform by SEBI for grievances against listed companies and registered intermediaries (brokers, RTAs, mutual funds, research analysts, investment advisers).",
+        "hi": "सूचीबद्ध कंपनियों और सेबी-पंजीकृत मध्यस्थों के खिलाफ शिकायतों के लिए सेबी का केंद्रीय ऑनलाइन मंच।",
+        "mr": "नोंदणीकृत मध्यस्थ (ब्रोकर्स, म्युच्युअल फंड्स, ॲडव्हायझर्स) आणि लिस्टेड कंपन्यांविरोधात तक्रारींसाठी सेबीचे अधिकृत पोर्टल."
+      },
+      "applicableIssues": [
+        "unresolved broker complaint after 30 days",
+        "mutual fund redemption delay",
+        "unregistered investment adviser fraud",
+        "dividend not paid by listed company",
+        "mis-selling of financial products",
+        "fake research analyst recommendation dispute",
+        "portfolio management service (PMS) breach"
+      ],
+      "requiredDocuments": [
+        "PAN Card details (mandatory on SCORES)",
+        "Proof of prior complaint to the broker / entity with ticket number",
+        "Account statements and payment proof",
+        "All email responses from the entity showing unresolved status",
+        "Contract notes or investment agreement copies"
+      ],
+      "escalationSteps": [
+        {
+          "step": 1,
+          "title": "Lodge Complaint on SCORES 2.0 Portal",
+          "timeline": "Day 1",
+          "action": "Register on https://scores.sebi.gov.in or SCORES Mobile App and select entity category."
+        },
+        {
+          "step": 2,
+          "title": "Entity Action Taken Report (ATR)",
+          "timeline": "Within 21 days",
+          "action": "The intermediary must redress the complaint and submit ATR to SEBI."
+        },
+        {
+          "step": 3,
+          "title": "Review by Designated Body / SMART ODR",
+          "timeline": "If dissatisfied with ATR",
+          "action": "Escalate to Designated Body review or initiate online dispute resolution on SMART ODR."
+        }
+      ]
+    },
+    {
+      "id": "cybercrime_portal",
+      "name": "National Cyber Crime Reporting Portal (MHA)",
+      "shortName": "Cybercrime Portal (1930)",
+      "category": "fraud_criminal",
+      "officialWebsite": "https://cybercrime.gov.in",
+      "source": "Ministry of Home Affairs & Indian Cyber Crime Coordination Centre (I4C)",
+      "timelineDays": 1,
+      "description": {
+        "en": "Official government portal for reporting financial cyber fraud, online investment scams, WhatsApp/Telegram phishing, and extortion.",
+        "hi": "वित्तीय साइबर धोखाधड़ी, ऑनलाइन फर्जी निवेश योजनाओं, व्हाट्सएप/टेलीग्राम धोखाधड़ी की रिपोर्ट करने के लिए आधिकारिक सरकारी पोर्टल।",
+        "mr": "ऑनलाईन आर्थिक फसवणूक, बनावट गुंतवणूक योजना आणि टेलिग्राम/व्हॉट्सॲप घोटाळ्यांची तक्रार करण्यासाठी अधिकृत सरकारी पोर्टल."
+      },
+      "applicableIssues": [
+        "lost money to fake advisor on telegram or whatsapp",
+        "transferred money to personal upi id for stock tips",
+        "fake trading app showing fake profits but blocking withdrawals",
+        "phishing link drained bank account",
+        "blackmailed by loan app or fake trading group",
+        "identity theft / unauthorized demat opening"
+      ],
+      "requiredDocuments": [
+        "Bank account statement showing debited transactions (UTR numbers)",
+        "Full screenshots of WhatsApp / Telegram chats showing promises and payment demands",
+        "Phone numbers, UPI handles, and website links of scammers",
+        "Transaction SMS receipts received from bank",
+        "Copy of PAN and Government Photo ID (Aadhaar/Voter ID)"
+      ],
+      "escalationSteps": [
+        {
+          "step": 1,
+          "title": "Immediately Call Cyber Helpline 1930",
+          "timeline": "Golden Hour (within 2-4 hours of payment)",
+          "action": "Dial 1930 immediately to freeze fraudulent money before scammers withdraw it from beneficiary accounts."
+        },
+        {
+          "step": 2,
+          "title": "File Formal Complaint on cybercrime.gov.in",
+          "timeline": "Within 24 hours",
+          "action": "Lodge complaint under 'Financial Fraud' with transaction IDs and bank account details."
+        },
+        {
+          "step": 3,
+          "title": "Visit Local Police Station Cyber Cell",
+          "timeline": "Within 48 hours",
+          "action": "Carry acknowledgment slip from cybercrime.gov.in and bank statements to get formal FIR registered."
+        }
+      ]
+    },
+    {
+      "id": "smart_odr",
+      "name": "Securities Market Online Dispute Resolution (SMART ODR)",
+      "shortName": "SMART ODR Portal",
+      "category": "conciliation_arbitration",
+      "officialWebsite": "https://smartodr.in",
+      "source": "SEBI Master Circular for Online Dispute Resolution",
+      "timelineDays": 21,
+      "description": {
+        "en": "SEBI-regulated online dispute resolution platform connecting investors with independent conciliators and arbitrators for securities disputes.",
+        "hi": "प्रतिभूति बाजार में निवेशकों और मध्यस्थों के बीच स्वतंत्र मध्यस्थता के लिए सेबी-विनियमित ऑनलाइन मंच।",
+        "mr": "गुंतवणूकदार आणि ब्रोकर्समधील वाद सोडवण्यासाठी सेबी-मान्यताप्राप्त ऑनलाईन लवादाचे (Arbitration) पोर्टल."
+      },
+      "applicableIssues": [
+        "dispute not resolved by broker or depository after 30 days",
+        "disputed brokerage claims exceeding Rs 10,000",
+        "arbitration for unauthorized derivative contracts",
+        "rejection of genuine claim by depository"
+      ],
+      "requiredDocuments": [
+        "Unique Client Code (UCC) with broker",
+        "Copy of complaint filed earlier with broker/exchange",
+        "Contract notes, bank statements, ledger proof",
+        "Summary of total claimed monetary loss"
+      ],
+      "escalationSteps": [
+        {
+          "step": 1,
+          "title": "File Dispute on SMART ODR",
+          "timeline": "Day 1",
+          "action": "Register at https://smartodr.in, select intermediary and submit claim."
+        },
+        {
+          "step": 2,
+          "title": "Conciliation Session",
+          "timeline": "Within 21 days",
+          "action": "Independent conciliator conducts virtual conciliation hearings between parties."
+        },
+        {
+          "step": 3,
+          "title": "Arbitration Award",
+          "timeline": "Within 30 days if conciliation fails",
+          "action": "Independent arbitrator passes legally binding award enforceable in civil court."
+        }
+      ]
+    }
+  ],
+  "contactHelplines": [
+    {
+      "name": "SEBI Toll-Free Investor Helpline",
+      "number": "1800 266 7575 / 1800 22 7575",
+      "timing": "9:30 AM to 5:30 PM (Mon-Fri) in 14 languages",
+      "website": "https://www.sebi.gov.in",
+      "source": "SEBI Official Portal"
+    },
+    {
+      "name": "National Cyber Crime Helpline",
+      "number": "1930",
+      "timing": "24x7 Emergency Assistance",
+      "website": "https://cybercrime.gov.in",
+      "source": "Ministry of Home Affairs (I4C)"
+    },
+    {
+      "name": "NSDL Investor Support Helpline",
+      "number": "022 4886 7000 / 022 2499 7000",
+      "timing": "9:00 AM to 6:00 PM (Mon-Sat)",
+      "website": "https://nsdl.co.in",
+      "source": "NSDL Official Portal"
+    }
+  ]
+}
