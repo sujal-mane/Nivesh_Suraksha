@@ -196,4 +196,5 @@ The application includes 10 pre-loaded seed scams and 3 grievance scenarios dire
 ## ⚖️ License
 Developed under the MIT License for the IIT BHU SANGYAN Hackathon in collaboration with SEBI and NSDL.
 #   N i v e s h _ S u r a k s h a  
+ #   N i v e s h _ S u r a k s h a  
  
